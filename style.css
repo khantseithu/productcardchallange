@@ -1,0 +1,115 @@
+/* # Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Dark cyan: hsl(158, 36%, 37%)
+- Cream: hsl(30, 38%, 92%)
+
+### Neutral
+
+- Very dark blue: hsl(212, 21%, 14%)
+- Dark grayish blue: hsl(228, 12%, 48%)
+- White: hsl(0, 0%, 100%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 14px
+
+### Font
+
+- Family: [Montserrat](https://fonts.google.com/specimen/Montserrat)
+- Weights: 500, 700
+
+- Family: [Fraunces](https://fonts.google.com/specimen/Fraunces)
+- Weights: 700
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+body{
+    margin: 0 auto;
+    background-color: hsl(30, 38%, 92%);
+}
+#container{
+    /* border: 5px solid black; */
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+main{
+    /* border: 5px solid black; */
+    display: flex;
+    border-radius: 16px;
+}
+
+main .wrapper{
+    border-radius: 0.625rem;
+}
+
+#container img{
+    max-width: 280px;
+}
+
+.content{
+    width: 260px;
+    padding: 20px;
+    background-color: hsl(0, 0%, 100%);
+}
+.label {
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', serif;
+    color: hsl(228, 12%, 48%);
+}
+
+h1{
+    font-family: 'Fraunces', sans-serif;
+}
+
+.description{
+    font-family: 'Montserrat', serif;
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+    line-height: 2;
+}
+
+.price{
+    font-family: 'Fraunces', sans-serif;
+}
+
+.discount{
+    color:  hsl(158, 36%, 37%);
+    font-size: 30px;
+}
+
+
+.org-price{
+    font-family: 'Montserrat', serif;
+    color: hsl(228, 12%, 48%);
+    font-size: 15px;
+    text-decoration: line-through;
+}
+
+.button{
+    background-color:  hsl(158, 36%, 37%);
+    padding: 20px;
+    color:  hsl(0, 0%, 100%);
+    text-align: center;
+    font-family: 'Montserrat', serif;
+    font-weight: 700;
+    border-radius: 12px;
+    /* width: 160px; */
+}
